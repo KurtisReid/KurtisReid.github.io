@@ -15,6 +15,7 @@
            <ul class="button-group">
              <li><a href="#about" class="button">About</a></li>
              <li><a href="#work" class="button">Work Experience</a></li>
+             <li><a href="#volunteer" class="button">Volunteer</a></li>
              <li><a href="#projects" class="button">Projects</a></li>
              <li><a href="#contact" class="button">Contact</a></li>
             </ul>
@@ -34,13 +35,15 @@
 			<hr>
 			<div class="large-9 columns">
 			  <h4>About</h4>
-			  <ul><p>I am currently a Junior in college working towards getting a degree in Computer Science.</p>
+			  <ul>
+				<p>I am currently a Junior in college working towards getting a degree in Computer Science.</p>
 			  	<p>I have actively participated in several organizations including HacKSU, The National Society of Leadership and Success Kent Chapter, Civil Air Patrol, as well as leading the Kent State Stark campus Computer Club as president.</p> 
 			  	<p>Recently, I have been participating in multiple hackathons, advancing my knowledge and experience in software development, as well as leadership and teamwork skills, in an environment that is outside of the classroom.</p>
+				<p>Currently, I am attempting to get a summer internship/co-op in order to get more experience. </p>
 
 				
 				<a href="about-expand.html#summary">Read more</a>
-				<!-- dosent work
+				<!-- doesn't work
 				<a data-dropdown="drop1" aria-controls="drop1" aria-expanded="true">Read more</a>
 				<ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
 					<li><a href="about-expand.html#summary">Summary</a></li>
@@ -73,7 +76,7 @@
 				  </tr>
 				  <tr>
 					<td><b>Application Software:</b></td>
-					<td>Microsoft Excel, Word, PowerPoint, VIM, Putty, LibreOffice, GitHub, Google Drive</td>		
+					<td>Microsoft Excel, Word, Power Point, VIM, Putty, LibreOffice, GitHub, Google Drive</td>		
 				  </tr>
 					<tr>
 						<td><b>Programming Skills:</b></td>
@@ -87,7 +90,7 @@
 					<ul> <!-- ul is used to indent -->
 						<!-- website admin -->
 						<h5>Website Developer:</h5>
-						<ul>It’s A Dusey! – Fashion and Costume Jewellery • Canton, Ohio • February 2012 to present
+						<ul>It’s A Dusey! – Fashion and Costume Jewelery • Canton, Ohio • February 2012 to present
 							<ul>
 							  <li>Set up of web pages, taking and uploading pictures, entering products, prices and information about company onto a web page.</li>
 							  <li>Create and maintain Facebook accounts.</li>
@@ -96,8 +99,8 @@
 							</ul>
 						</ul>
 						
-						<!-- webmaster -->
-						<h5>Webmaster</h5>
+						<!-- web master -->
+						<h5>Web master</h5>
 						<ul>Akron Canton Composite Squadron, Civil Air Patrol • North Canton, Ohio • October 2011-March 2013-present
 							<ul>
 							  <li>Create and update information concerning the squadron’s numerous activities and events.</li>
@@ -114,13 +117,13 @@
 					</ul>
 				</div>
 				
-				<div id="projects">
-					<h4>Projects:</h4>
+				<div id="volunteer">
+					<h4>Volunteer Experience:</h4>
 					<ul>
 						<h5>President:</h5>
 						<ul>Kent State Stark campus Computer Club • North Canton, Ohio • January 2014-present
 							<ul>
-							  <li>Collaborated with team, at <a href="https://www.youtube.com/embed/4N57quU3kFo?rel=0&autoplay=1">2014 Fall Fuse "Heath-care at Home" Hackathon</a>, to create an android phone application that would compile information from three internet sources into a condensed summary based upon what the user entered.</li>
+							  <li>Collaborated with team, at <a href="https://www.youtube.com/embed/4N57quU3kFo?rel=0&autoplay=1">2014 Fall Fuse "Heath-care at Home" Hackathon</a>, to create an android phone application that would compile information from three Internet sources into a condensed summary based upon what the user entered.</li>
 							  <li>Collaborated with team members to create website for Italian cultural group <i>Il Cenacolo Italiano di Cleveland</i>.</li>
 							  <li>Organized club meetings, transportation, schedule, and events</li>
 							</ul>
@@ -155,12 +158,70 @@
 						<h5>Volunteer:</h5>
 						<ul>Canton/Akron area 
 							<ul>
-							  <li>Accumulated over 60 hours of community service and numerous volunteering opportunities including working at the Sheriff's Open House in North Canton, Parking Cars for events, and many activities honouring Veterans. </li>
+							  <li>Accumulated over 60 hours of community service and numerous volunteering opportunities including working at the Sheriff's Open House in North Canton, Parking Cars for events, and many activities honoring Veterans. </li>
 							</ul>
 						</ul>
 						
 						<a href="projects.html">Read more</a>
 					</ul>
+				</div>
+				<div id="projects">
+					<h4>Projects:</h4>
+					<ul>
+						
+
+						<div id="checkyo">
+							<h5>Check yo self before you wreck yourself</h5>
+							<ul>2014 Fall Fuse "Heath-care at Home" Hackathon • Dublin, Ohio
+								<ul>
+									<li>"Check yo self before you wreck yourself" was a phone app that we developed at the 2014 Fall Fuse "Heath-care at Home" Hackathon. This was basically an aggravate, that would get information from three sources. WebMD, Mayo Clinic, and Wikipedia, and would display the symptoms and treatments for the ailment the user entered.</li>
+									<li><a href="https://github.com/UbiquitousSpice/HackathonNovember2014">Github repository</a></li>
+								</ul>
+							</ul>
+							<a href="projects.html#checkyo">Read more</a>
+					
+						</div>
+				
+						<div id="person-web">
+							<h5>KurtisReid.github.io <small>personal website</small></h5>
+							<ul>
+								<ul>
+
+									<li>Created a professional portfolio website, using the front end framework foundation, in HTML and CSS. The website itself is hosted from GitHub repository.</li>
+									<li><a href="https://github.com/KurtisReid/KurtisReid.github.io">Github repository</a></li>
+								</ul>
+							</ul>
+							<a href="projects.html#person-web">Read more</a>
+					
+						</div>
+		        			<div id="mhacks">
+		            				<h5>Walmart trips</h5>
+							<ul>MHacks 6 • Ann Arbor, Michigan
+								<ul>
+		            						<li>Some experimentation with the Walmart API that I did during MHacks 6. The idea was to show the user the furthes Walmart store away from them, and then use the Expedia API to book a flight to it. While I was not able to complete this project due to technical difficulties, this project advanced my knowledge of both how APIs work as well as javascript.</li>
+									<li><a href="https://github.com/KurtisReid/walmart_trips">Github repository</a></li>
+								</ul>
+							</ul>
+							<a href="projects.html#mhacks">Read more</a>
+		            				
+		        			</div>
+
+						<div id="fimp">
+							<h5>FIMP <small>Fashion in my pocket</small></h5>
+							<ul>2015 Spring Fashion / Tech Hackathon • Kent State University
+								<ul>
+									<li>FIMP - Fashion In My Pocket- is an interactive app that is meant to help anyone make the most of their time when it comes to packing for trips, organizing their closet, or just picking out something to wear.</li>
+
+								</ul>
+							</ul>
+							<a href="projects.html#fimp">Read more</a>
+					
+					
+						</div>
+					</ul>
+
+
+				</div>
 					<div id="pictures" class="row">
 						<hr>
 						<div class="large-12 columns">
@@ -170,7 +231,7 @@
 						  <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-clearing>
 							<li>
 							  <a href="img/fuse2.jpg">
-							  <img data-caption="Fuse Healthcare at Home hackathon" src="img/fuse2.jpg"></a>
+							  <img data-caption="Fuse Health care at Home hackathon" src="img/fuse2.jpg"></a>
 							</li>
 							<li>
 							  <a href="img/Fashion%20tech.JPG"><img data-caption="Spring 2015 Kent Stae Fashion/ Tech hackathon" src="img/Fashion%20tech.JPG"></a>
@@ -322,11 +383,11 @@
               </div>
               <div class="large-6 columns">
                 <ul class="inline-list right">
-					<li><a href="#about">About</a></li>
-					<li><a href="#work">Work Experience</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="https://github.com/KurtisReid/resumes/blob/master/MyResume%20for%20internships.docx?raw=true">Download my resume</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#work">Work Experience</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="https://github.com/KurtisReid/resumes/blob/master/MyResume%20for%20internships.docx?raw=true">Download my resume</a></li>
                 </ul>
               </div>
             </div>
