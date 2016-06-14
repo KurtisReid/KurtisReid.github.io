@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
+<entry>
 <input>
 	Input
 </input>
@@ -23,4 +23,4 @@
 <outputRecomendation>
 	Output reccomendation
 </outputRecomendation>
-
+</entry>
