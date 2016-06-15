@@ -16,13 +16,13 @@
 		<learningGoal>
 		
 		</learningGoal>
-		<initalLearningState>
+		<learningState id="0">
 			<distanceToLearningGoal>
 			
 			</distanceToLearningGoal>
-		</initalLearningState>
+		</learningState>
 		
-		<learningState>
+		<learningState id="1">
 			<distanceToLearningGoal>
 			
 			</distanceToLearningGoal>
