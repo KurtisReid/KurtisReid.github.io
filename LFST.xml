@@ -1,26 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <entry>
-<input>
-	Input test us
-</input>
+	<inputKnowledgeItems>
+		Input test us
+	</inputKnowledgeItems>
 
-<output>
-	Output
-</output>
+	<outputKnowledgeItems>
+		Output
+	</outputKnowledgeItems>
 
-<learningState>
-	<initalLearningState>
-		Inital Learning state
-	</initalLearningState>
-</learningState>
+	<learningStates>
+		<learningGoal>
+		
+		</learningGoal>
+		<initalLearningState>
+			<distanceToLearningGoal>
+			
+			</distanceToLearningGoal>
+		</initalLearningState>
+		
+		<learningState>
+			<distanceToLearningGoal>
+			
+			</distanceToLearningGoal>
+		</learningState>
+	</learningStates>
 
-<stateTransition>
-	StateTransition
+	<stateTransition>
+		<location>
+		
+		</location>
+		
+		<distanceToLearningGoal>
+			
+		</distanceToLearningGoal>
+		StateTransition
 
-</stateTransition>
+	</stateTransition>
 
-<outputRecomendation>
-	Output reccomendation
-</outputRecomendation>
+	<outputRecomendation>
+		Output reccomendation
+	</outputRecomendation>
 </entry>
