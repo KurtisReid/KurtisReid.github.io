@@ -2,8 +2,9 @@
 
 <entry>
 	<inputKnowledgeItems>
+	Input test us
 		<socialNetwork>
-		
+			Facebook
 		</socialNetwork>
 		Input test us
 	</inputKnowledgeItems>
@@ -14,11 +15,11 @@
 
 	<learningStates>
 		<learningGoal>
-		
+			Graduate college
 		</learningGoal>
 		<learningState id="0">
 			<distanceToLearningGoal>
-			
+				15
 			</distanceToLearningGoal>
 		</learningState>
 		
@@ -37,7 +38,7 @@
 		<distanceToLearningGoal>
 			
 		</distanceToLearningGoal>
-		StateTransition
+		StateTransitionftw
 
 	</stateTransition>
 
